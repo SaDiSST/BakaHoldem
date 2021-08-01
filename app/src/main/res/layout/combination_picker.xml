@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/clearPlayerCard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/playerCard1"
+        app:layout_constraintStart_toEndOf="@+id/playerCardSuit1"
+        app:layout_constraintTop_toTopOf="@+id/playerCard1"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/clearPlayerCard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/playerCard2"
+        app:layout_constraintStart_toEndOf="@+id/playerCardSuit2"
+        app:layout_constraintTop_toTopOf="@+id/playerCard2"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/clearDeckCard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard1"
+        app:layout_constraintStart_toEndOf="@+id/deckCardSuit1"
+        app:layout_constraintTop_toTopOf="@+id/deckCard1"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/clearDeckCard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard2"
+        app:layout_constraintStart_toEndOf="@+id/deckCardSuit2"
+        app:layout_constraintTop_toTopOf="@+id/deckCard2"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/clearDeckCard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard3"
+        app:layout_constraintStart_toEndOf="@+id/deckCardSuit3"
+        app:layout_constraintTop_toTopOf="@+id/deckCard3"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/clearDeckCard4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard4"
+        app:layout_constraintStart_toEndOf="@+id/deckCardSuit4"
+        app:layout_constraintTop_toTopOf="@+id/deckCard4"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/clearDeckCard5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="clearInputField"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard5"
+        app:layout_constraintStart_toEndOf="@+id/deckCardSuit5"
+        app:layout_constraintTop_toTopOf="@+id/deckCard5"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:id="@+id/playersHandTitle"
+        style="@style/CombinationsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/hand_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/deckTitle"
+        style="@style/CombinationsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/deck_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerCard2" />
+
+    <Spinner
+        android:id="@+id/playerCard1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playersHandTitle" />
+
+    <Spinner
+        android:id="@+id/playerCardSuit1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playerCard1"
+        app:layout_constraintLeft_toRightOf="@id/playerCard1"
+        app:layout_constraintTop_toTopOf="@+id/playerCard1" />
+
+    <Spinner
+        android:id="@+id/playerCard2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerCard1"/>
+
+    <Spinner
+        android:id="@+id/playerCardSuit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playerCard2"
+        app:layout_constraintLeft_toRightOf="@id/playerCard2"
+        app:layout_constraintTop_toTopOf="@+id/playerCard2" />
+
+
+    <Spinner
+        android:id="@+id/deckCard1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deckTitle"/>
+
+    <Spinner
+        android:id="@+id/deckCardSuit1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard1"
+        app:layout_constraintLeft_toRightOf="@id/deckCard1"
+        app:layout_constraintTop_toTopOf="@+id/deckCard1" />
+
+    <Spinner
+        android:id="@+id/deckCard2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deckCard1"/>
+
+    <Spinner
+        android:id="@+id/deckCardSuit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard2"
+        app:layout_constraintLeft_toRightOf="@id/deckCard2"
+        app:layout_constraintTop_toTopOf="@+id/deckCard2" />
+
+    <Spinner
+        android:id="@+id/deckCard3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deckCard2"/>
+
+    <Spinner
+        android:id="@+id/deckCardSuit3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard3"
+        app:layout_constraintLeft_toRightOf="@id/deckCard3"
+        app:layout_constraintTop_toTopOf="@+id/deckCard3" />
+
+    <Spinner
+        android:id="@+id/deckCard4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deckCard3"/>
+
+    <Spinner
+        android:id="@+id/deckCardSuit4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard4"
+        app:layout_constraintLeft_toRightOf="@id/deckCard4"
+        app:layout_constraintTop_toTopOf="@+id/deckCard4" />
+
+    <Spinner
+        android:id="@+id/deckCard5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deckCard4"/>
+
+    <Spinner
+        android:id="@+id/deckCardSuit5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/deckCard5"
+        app:layout_constraintLeft_toRightOf="@id/deckCard5"
+        app:layout_constraintTop_toTopOf="@+id/deckCard5" />
+
+
+    <Button
+        android:id="@+id/btnClearAll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="clearInputField"
+        android:text="@string/clear_all"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/possibleCombinationsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/combo_title"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deckCard5"
+        style="@style/CombinationsTitle"/>
+
+    <TextView
+        android:id="@+id/possibleCombinationsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/combo_value"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/possibleCombinationsName"
+        style="@style/CombinationsTitle"/>
+
+    <TextView
+        android:id="@+id/possibleCombinationsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/combo_name"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/possibleCombinationsTitle"
+        style="@style/CombinationsTitle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

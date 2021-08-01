@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/detailedItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailedItemTitle"
+            style="@style/CombinationsDetailTitle"
+            android:layout_alignBottom="@+id/detailedItemImage"
+            android:padding="16dp"
+            android:text="@string/title"/>
+
+        <TextView
+            android:id="@+id/combinationDetailedTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailedItemImage"
+            android:padding="16dp"
+            android:text="@string/title"
+            style="@style/CombinationsExploration"/>
+
+        <TextView
+            android:id="@+id/combinationExample"
+            style="@style/CombinationsExploration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/combinationDetailedTitle"
+            android:padding="4dp"
+            android:text="@string/kinds"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/detailedItemText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/combinationExample"
+            android:padding="16dp"
+            android:text="@string/title"/>
+    </RelativeLayout>
+
+</ScrollView>
