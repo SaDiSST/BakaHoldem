@@ -6,7 +6,7 @@ Has a deck builder realised through spinners (tried my own keyboard, but it is n
 Localized for EN and RU.
 
 Featuring TODO:
-• gameflow with bets and blinds based on players amount;
-• dynamic combinations parser based on rules (current implementation uses static strings);
-• games history;
-○ hold'em news parser (not sure, got another ideas to improve API usage).
+- gameflow with bets and blinds based on players amount;
+- dynamic combinations parser based on rules (current implementation uses static strings);
+- games history;
+- ?hold'em news parser (not sure, got another ideas to improve API usage).
