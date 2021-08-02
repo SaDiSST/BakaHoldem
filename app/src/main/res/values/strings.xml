@@ -136,4 +136,39 @@
     <string name="cmb_name_one_pair">One pair</string>
     <string name="cmb_name_flush">Flush</string>
     <string name="cmb_name_straight">Straight</string>
+    <string name="btn_text_rules">rules</string>
+    <string name="btn_text_picker">deck builder</string>
+    <string name="btn_text_coming_soon">coming soon...™</string>
+    <string name="basic_rules">How to Play Texas Holdem
+        \n\nTo learn to play Holdem using a hands-on method, PokerStars offers free poker games in the poker room. To start practicing your poker skills, just visit the free poker download page, install the award-winning poker software, and youll be learning Holdem in no time.
+        \n\nHowever, if youd rather familiarize yourself with the rules of Holdem first, then these instructions should help.
+
+        \n\nThe Blinds
+        \n\nIn Holdem, a marker called ‘the button’ or ‘the dealer button’ indicates which player is the nominal dealer for the current game. Before the game begins, the player immediately clockwise from the button posts the "small blind", the first forced bet. The player immediately clockwise from the small blind posts the "big blind", which is typically twice the size of the small blind, but the blinds can vary depending on the stakes and betting structure being played.
+        \n\nIn Limit games, the big blind is the same as the small bet, and the small blind is typically half the size of the big blind but may be larger depending on the stakes. For example, in a $2/$4 Limit game the small blind is $1 and the big blind is $2. In a $15/$30 Limit game, the small blind is $10 and the big blind is $15.
+        \n\nIn Pot Limit and No Limit games, the games are referred to by the size of their blinds (for example, a $1/$2 Hold’em game has a small blind of $1 and a big blind of $2).
+        \n\nDepending on the exact structure of the game, each player may also be required to post an ‘ante’ (another type of forced bet, usually smaller than either blind, posted by all players at the table) into the pot.
+        \n\nNow, each player receives his or her two hole cards. Betting action proceeds clockwise around the table, starting with the player ‘under the gun’ (immediately clockwise from the big blind).
+
+        \n\nPlayer Betting Options
+        \n\nIn Holdem, as with other forms of poker, the available actions are ‘fold’, ‘check’, ‘bet’, ‘call’ or ‘raise’. Exactly which options are available depends on the action taken by the previous players. If nobody has yet made a bet, then a player may either check (decline to bet, but keep their cards) or bet. If a player has bet, then subsequent players can fold, call or raise. To call is to match the amount the previous player has bet. To raise is to not only match the previous bet, but to also increase it.
+
+        \n\nPre-Flop
+        \n\nAfter seeing his or her hole cards, each player now has the option to play his or her hand by calling or raising the big blind. The action begins to the left of the big blind, which is considered a ‘live’ bet on this round. That player has the option to fold, call or raise. For example, if the big blind was $2, it would cost $2 to call, or at least $4 to raise. Action then proceeds clockwise around the table.
+        \n\nNote: The betting structure varies with different variations of the game. Explanations of the betting action in Limit Holdem, No Limit Holdem, and Pot Limit Holdem can be found below.
+        \n\nBetting continues on each betting round until all active players (who have not folded) have placed equal bets in the pot.
+
+        \n\nThe Flop
+        \n\nNow, three cards are dealt face-up on the board. This is known as ‘the flop’. In Holdem, the three cards on the flop are community cards, available to all players still in the hand. Betting on the flop begins with the active player immediately clockwise from the button. The betting options are similar to pre-flop, however if nobody has previously bet, players may opt to check, passing the action to the next active player clockwise.
+
+        \n\nThe Turn
+        \n\nWhen the betting action is completed for the flop round, the ‘turn’ is dealt face-up on the board. The turn is the fourth community card in Holdem (and is sometimes also called ‘Fourth Street’). Another round of betting ensues, beginning with the active player immediately clockwise from the button.
+
+        \n\nThe River
+        \n\nWhen betting action is completed for the turn round, the ‘river’ or ‘Fifth Street’ is dealt face-up on the board. The river is the fifth and final community card in a Holdem game. Betting again begins with the active player immediately clockwise from the button, and the same betting rules apply as they do for the flop and turn, as explained above.
+
+        \n\nThe Showdown
+        \n\nIf there is more than one remaining player when the final betting round is complete, the last person to bet or raise shows their cards, unless there was no bet on the final round in which case the player immediately clockwise from the button shows their cards first. The player with the best five-card poker hand wins the pot. In the event of identical hands, the pot will be equally divided between the players with the best hands. Holdem rules state that all suits are equal.
+        \n\nAfter the pot is awarded, a new hand of Holdem is ready to be played. The button now moves clockwise to the next player, blinds and antes are once again posted, and new hands are dealt to each player.</string>
+    <string name="btn_text_combination">combinations</string>
 </resources>
